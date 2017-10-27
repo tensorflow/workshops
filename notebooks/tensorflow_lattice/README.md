@@ -28,7 +28,7 @@ First, we'll setup the virtual environment and install software as follows.
 ```bash
 $ sudo apt-get install python-pip python-dev python-virtualenv
 $ cd ~/
-~$ virtuaenv --system-site-packages tf-lattice
+~$ virtualenv --system-site-packages tf-lattice
 ~$ source ~/tf-lattice/bin/activate
 (tf-lattice) ~$ pip install --upgrade pip
 (tf-lattice) ~$ pip install --upgrade tensorflow-lattice ipykernel
@@ -65,7 +65,7 @@ First, we'll setup the virtual environment and install software as follows.
 ```bash
 $ sudo easy_install pip
 $ cd ~/
-~$ virtuaenv --system-site-packages tf-lattice
+~$ virtualenv --system-site-packages tf-lattice
 ~$ source ~/tf-lattice/bin/activate
 (tf-lattice) ~$ pip install --upgrade pip
 (tf-lattice) ~$ pip install --upgrade tensorflow-lattice ipykernel
