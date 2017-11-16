@@ -36,7 +36,19 @@ $ jupyter notebook
 
 ```
 
-Navigate to the examples folder, and open the first notebook.
+You will see output on your terminal to indicate the server is running. Towards the end of the output, you will see a line similar to this.
+
+```
+Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=e9fbab4702ac162eb1f1fc5...
+```
+
+Copy this URL, and paste it into your browser. Finally, navigate to the examples folder, and open the first notebook.
+
+### Slides
+Here's a link to slides you can use for this workshop: https://goo.gl/bq8HAE Note: these are very basic at the moment. Improving them is on our roadmap.
+
 
 ### Would you like to contribute, or report a bug?
 
