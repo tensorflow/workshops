@@ -1,0 +1,5 @@
+/env
+.ipynb_checkpoints
+*.pyc
+/notebooks/data
+.DS_Store
