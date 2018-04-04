@@ -1,8 +1,14 @@
 # TensorFlow Workshops
 
-Exercises for use at events. 
+Exercises for use at events.
 
 ## How-to run these notebooks
+
+### Online running with Binder
+
+Click to run online: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/tensorflow/workshops/master)
+
+### Run locally
 
 To run these notebooks, you'll need to:
 1. Install TensorFlow
@@ -10,12 +16,12 @@ To run these notebooks, you'll need to:
 3. Clone this repo
 4. Start Jupyter, and open a notebook
 
-Install TensorFlow by following these [instructions](https://www.tensorflow.org/install/). 
+Install TensorFlow by following these [instructions](https://www.tensorflow.org/install/).
 
 Next, open a terminal and install additional dependencies used by these exercises. Note: if you installed TensorFlow using a virtual environment, be sure to activate the environment before running this command.
 
 
-```sh 
+```sh
 
 $ pip install -U numpy jupyter matplotlib pandas Pillow
 
