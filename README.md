@@ -1,54 +1,18 @@
-# TensorFlow Workshops
+# TensorFlow workshops
 
-Exercises for use at events. 
+A few exercises for use at events.
 
 ## How-to run these notebooks
 
-To run these notebooks, you'll need to:
-1. Install TensorFlow
-2. Install Jupyter
-3. Clone this repo
-4. Start Jupyter, and open a notebook
+Click on the links below to open these notebooks in [Colaboratory](https://colab.research.google.com), a hosted Jupyter notebook environment that's free to use and requires no setup.
 
-Install TensorFlow by following these [instructions](https://www.tensorflow.org/install/). 
+* [1-mnist-with-keras.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/notebooks/1-mnist-with-keras.ipynb)
 
-Next, open a terminal and install additional dependencies used by these exercises. Note: if you installed TensorFlow using a virtual environment, be sure to activate the environment before running this command.
+* [2-mnist-with-keras-eager-and-tf-data.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/notebooks/2-mnist-with-keras-eager-and-tf-data.ipynb)
 
+* [3-imdb.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/notebooks/3-imdb.ipynb)
 
-```sh 
-
-$ pip install -U numpy jupyter matplotlib pandas Pillow
-
-```
-
-Next, clone the workshops repo.
-
-```sh
-$ git clone https://github.com/tensorflow/workshops
-$ cd workshops
-```
-
-Finally, start Jupyter.
-
-```sh
-
-$ jupyter notebook
-
-```
-
-You will see output on your terminal to indicate the server is running. Towards the end of the output, you will see a line similar to this.
-
-```
-Copy/paste this URL into your browser when you connect for the first time,
-    to login with a token:
-        http://localhost:8888/?token=e9fbab4702ac162eb1f1fc5...
-```
-
-Copy this URL, and paste it into your browser. Finally, navigate to the examples folder, and open the first notebook.
-
-### Slides
-Here's a link to slides you can use for this workshop: https://goo.gl/bq8HAE Note: these are very basic at the moment. Improving them is on our roadmap.
-
+* [4-reuters.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/notebooks/4-reuters.ipynb)
 
 ### Would you like to contribute, or report a bug?
 
