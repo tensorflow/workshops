@@ -14,6 +14,8 @@ Click on the links below to open these notebooks in [Colaboratory](https://colab
 
 * [4-reuters.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/notebooks/4-reuters.ipynb)
 
+* [5-conv-draft.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/notebooks/5-conv-draft.ipynb)
+
 ### Would you like to contribute, or report a bug?
 
 Thanks! Can you please file an issue, or even better, a pull request? Future developers will appreciate your help. If it's your first time contributing to a TensorFlow project, there's just one legal hurdle to jump through first. Please review the [contribution guidelines](CONTRIBUTING.md).
