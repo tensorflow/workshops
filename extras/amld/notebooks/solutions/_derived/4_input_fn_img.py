@@ -1,4 +1,4 @@
-# (Written into separate file for sharing with clode code.)
+# (Written into separate file for sharing with cloud code.)
 
 # Read input data from sharded files using 1.4 API.
 # This is copied and slightly simplified from tf_snippets.ipynb

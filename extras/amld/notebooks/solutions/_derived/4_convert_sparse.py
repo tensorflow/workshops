@@ -1,4 +1,4 @@
-# (Written into separate file for sharing with clode code.)
+# (Written into separate file for sharing with cloud code.)
 
 # Now let's define a helper function that limits variable length
 # sparse tensors to a maximum length and converts them to dense

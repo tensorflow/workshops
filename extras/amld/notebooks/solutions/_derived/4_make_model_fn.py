@@ -1,4 +1,4 @@
-# (Written into separate file for sharing with clode code.)
+# (Written into separate file for sharing with cloud code.)
 
 # Warning : Boilerplate code cell...
 

@@ -1,4 +1,4 @@
-# (Written into separate file for sharing with clode code.)
+# (Written into separate file for sharing with cloud code.)
 
 # Define a function that computes "logits" from features.
 # The "logits" are unbound numbers that will be used as the
@@ -47,7 +47,7 @@ def get_logits_img(features, n_classes, mode, params):
             padding='same', activation=tf.nn.relu)
         last_layer = tf.layers.max_pooling2d(
             inputs=conv, pool_size=[stride, stride], strides=stride)
-        dim /= stride
+        dim //= stride
     # "Flatten" the last layer to get shape [batch, *]
     last_layer = tf.reshape(last_layer, [-1, filters * dim * dim])
     # Add some fully connected layers.

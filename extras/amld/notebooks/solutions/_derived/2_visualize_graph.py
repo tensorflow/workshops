@@ -1,5 +1,7 @@
 # (Written into separate file for sharing between notebooks.)
 
+# Note : Tested with Chrome 66 -- might not work with all browsers :-(
+
 # Let's visualize our graph!
 # Tip: to make your graph more readable you can add a
 # name="..." parameter to the individual Ops.
