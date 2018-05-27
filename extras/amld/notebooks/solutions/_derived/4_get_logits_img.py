@@ -35,7 +35,7 @@ def get_logits_img(features, n_classes, mode, params):
     # [batch, height, width, channels] -- since our "img_64" tensor
     # has format [batch, height, width], we need to expand the tensor
     # to get [batch, height, width, channels=1].
-    last_layer = tf.expand_dims(features['img_64'], axis=3)
+    last_layer = tf.cast(tf.expand_dims(features['img_64'], axis=3), tf.float32)
     # We start with dims=width=height=64 and filters=channels=1 and then
     # successively reduce the number of dimensions while increasing the
     # number of filters in every convolutional/maxpooling layer.
