@@ -1,4 +1,4 @@
-# (Written into separate file for sharing with clode code.)
+# (Written into separate file for sharing with cloud code.)
 
 # This function creates creates the logits fro the stroke features.
 def get_logits_stroke(features, n_classes, mode, params):

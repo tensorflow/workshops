@@ -13,6 +13,6 @@ def make_example_img(label, drawing):
     example.features.feature['word'].bytes_list.value.append(drawing['word'].encode())
     ts = drawing['timestamp']
     ts = time.mktime(time.strptime(ts[:ts.index('.')], '%Y-%m-%d %H:%M:%S'))
-    example.features.feature['timestamp'].int64_list.value.append(long(ts))
-    example.features.feature['key_id'].int64_list.value.append(long(drawing['key_id']))
+    example.features.feature['timestamp'].int64_list.value.append(int(ts))
+    example.features.feature['key_id'].int64_list.value.append(int(drawing['key_id']))
     return example

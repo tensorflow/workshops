@@ -1,4 +1,4 @@
-# (Written into separate file for sharing with clode code.)
+# (Written into separate file for sharing with cloud code.)
 
 # Because the data is stored in a different format (strokes instead of pixels)
 # we need a new input_fn.

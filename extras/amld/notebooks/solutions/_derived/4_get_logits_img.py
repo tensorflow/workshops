@@ -1,4 +1,4 @@
-# (Written into separate file for sharing with clode code.)
+# (Written into separate file for sharing with cloud code.)
 
 # Define a function that computes "logits" from features.
 # The "logits" are unbound numbers that will be used as the
@@ -35,7 +35,7 @@ def get_logits_img(features, n_classes, mode, params):
     # [batch, height, width, channels] -- since our "img_64" tensor
     # has format [batch, height, width], we need to expand the tensor
     # to get [batch, height, width, channels=1].
-    last_layer = tf.expand_dims(features['img_64'], axis=3)
+    last_layer = tf.cast(tf.expand_dims(features['img_64'], axis=3), tf.float32)
     # We start with dims=width=height=64 and filters=channels=1 and then
     # successively reduce the number of dimensions while increasing the
     # number of filters in every convolutional/maxpooling layer.
@@ -47,7 +47,7 @@ def get_logits_img(features, n_classes, mode, params):
             padding='same', activation=tf.nn.relu)
         last_layer = tf.layers.max_pooling2d(
             inputs=conv, pool_size=[stride, stride], strides=stride)
-        dim /= stride
+        dim //= stride
     # "Flatten" the last layer to get shape [batch, *]
     last_layer = tf.reshape(last_layer, [-1, filters * dim * dim])
     # Add some fully connected layers.

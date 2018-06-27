@@ -9,6 +9,6 @@ def json_to_stroke(d):
     xy = np.concatenate([np.array(s, dtype=np.float32) for s in d['drawing']], axis=1)
     z = np.zeros(xy.shape[1])
     if len(d['drawing']) > 1:
-        z[np.cumsum(np.array(map(lambda x: x.shape[1], d['drawing'][:-1])))] = 1
+        z[np.cumsum(np.array(list(map(lambda x: x.shape[1], d['drawing'][:-1]))))] = 1
     dxy = np.diff(norm(xy))
     return np.concatenate([dxy, z.reshape((1, -1))[:, 1:]])

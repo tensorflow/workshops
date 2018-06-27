@@ -1,4 +1,4 @@
-# (Written into separate file for sharing with clode code.)
+# (Written into separate file for sharing with cloud code.)
 
 # Another helper function: This function will return the "nth element"
 # with different "n" for every element in the batch.
