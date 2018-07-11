@@ -6,15 +6,15 @@ A few exercises for use at events.
 
 Click on the links below to open these notebooks in [Colaboratory](https://colab.research.google.com), a hosted Jupyter notebook environment that's free to use and requires no setup.
 
-* [MNIST](https://colab.research.google.com/github/tensorflow/models/blob/master/samples/core/get_started/basic_classification.ipynb)
+* [MNIST](https://colab.research.google.com/github/tensorflow/models/blob/master/samples/core/tutorials/keras/basic_classification.ipynb)
 
-* [IMDB](https://colab.research.google.com/github/tensorflow/models/blob/master/samples/core/get_started/basic_text_classification.ipynb)
+* [IMDB](https://colab.research.google.com/github/tensorflow/models/blob/master/samples/core/tutorials/keras/basic_text_classification.ipynb)
 
-* [Housing prices](https://colab.research.google.com/github/tensorflow/models/blob/master/samples/core/get_started/basic_regression.ipynb)
+* [Housing prices](https://colab.research.google.com/github/tensorflow/models/blob/master/samples/core/tutorials/keras/basic_regression.ipynb)
 
-* [Overfitting vs underfitting](https://colab.research.google.com/github/tensorflow/models/blob/master/samples/core/get_started/overfit_and_underfit.ipynb)
+* [Overfitting vs underfitting](https://colab.research.google.com/github/tensorflow/models/blob/master/samples/core/tutorials/keras/overfit_and_underfit.ipynb)
 
-* [Text generation](https://colab.research.google.com/github/yashk2810/tensorflow/blob/005799649aae3fe4a01a8e69cf88ebbcd86ca8f0/tensorflow/contrib/eager/python/examples/generative_examples/text_generation.ipynb)
+* [Text generation](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/contrib/eager/python/examples/generative_examples/text_generation.ipynb)
 
 * [Translation](https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tensorflow/contrib/eager/python/examples/nmt_with_attention/nmt_with_attention.ipynb)
 
