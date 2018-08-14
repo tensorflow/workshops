@@ -11,7 +11,6 @@ Section 1:
 * Introduction to Keras
 * How to build and train a model using Keras APIs
 * Using Callbacks
-* Link to colab: 
 
 
 Section 2
@@ -20,7 +19,6 @@ Section 2
 * Data augmentation with  ImageGenerator
 * Feature extraction with pre-trained CNN model
 * Introduciton to Fine Tuning
-* Link to colab:
 
 
 Section 3
@@ -28,7 +26,6 @@ Section 3
 * Word Embeddings in Keras
 * Using pre-trained word embeddings with the Embedding layer
 * Introduction to RNN layers
-* Link to colab:
 
 
 Section 4
@@ -36,10 +33,8 @@ Section 4
 * Workflow for solving Text Classification problems
 * Using a N-gram model
 * Using a Sequence model
-* Link to colab:
 
 
-If you want to run the notebooks in this repo locally, here are the installation instructions and the required datasets.
 
 Installation instructions
 
@@ -62,6 +57,8 @@ Required Datasets:
 * Download the GloVe pre-trained embedding from the [GloVe website](https://nlp.stanford.edu/projects/glove/).
 
 * Download the IMDB dataset from this [website](http://ai.stanford.edu/~amaas/data/sentiment/)
+
+* Download the Rotten Tomatotes dataset from the [Kaggle site](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data)
 
 Verify Installation:
 
