@@ -3,6 +3,20 @@
 This document includes the instructions for setting up TensorFlow Lattice
 environment to run jupyter notebooks.
 
+## Colab links
+
+Click on the links below to open these notebooks in [Colaboratory](https://colab.research.google.com), a hosted Jupyter notebook environment that's free to use and requires no setup.
+
+* [00_test_install](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/tensorflow_lattice/00_test_install.ipynb)
+* [01_lattice_estimator_basics](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/tensorflow_lattice/01_lattice_estimator_basics.ipynb)
+* [02_advanced_lattice_estimators](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/tensorflow_lattice/02_advanced_lattice_estimators.ipynb)
+* [03_calibrator_basics](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/tensorflow_lattice/03_calibrator_basics.ipynb)
+* [04_lattice_basics](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/tensorflow_lattice/04_lattice_basics.ipynb)
+* [05_lattice_mnist](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/tensorflow_lattice/05_lattice_mnist.ipynb)
+
+
+## Requirements
+
 __Requirement 1__: Mac or Linux machine (TensorFlow Lattice does not support
 Windows)
 
