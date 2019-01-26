@@ -18,7 +18,7 @@ For illustration purposes, the workshop uses the
 ["Quick, Draw" dataset](quickdraw.withgoogle.com/data), but the provided
 Colabs can easily be extended to other data.
 
-[![Workshop Slides (link)](workshop_slides.png)](TODO)
+[![Workshop Slides (link)](workshop_slides.png)](https://bit.ly/2Mzl5PU)
 
 ## Run notebooks on Colab
 
