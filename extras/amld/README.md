@@ -20,6 +20,8 @@ Colabs can easily be extended to other data.
 
 [![Workshop Slides (link)](workshop_slides.png)](https://bit.ly/2Mzl5PU)
 
+(Workshop content by Andreas Steiner, Ruslan Habalov, Megan Ruthven, Bartek Wołowiec)
+
 ## Run notebooks on Colab
 
 While most of the provided notebooks also run on Jupyter, some functionality
