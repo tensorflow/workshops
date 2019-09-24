@@ -36,8 +36,8 @@ git clone https://github.com/tensorflow/tfx.git
 cd tfx
 git checkout -f origin/r0.14
 rm -rf tfx/examples/containers/workshop
-cd /
 
+cd /root
 virtualenv -p python3.6 tfx_env
 source /root/tfx_env/bin/activate
 
