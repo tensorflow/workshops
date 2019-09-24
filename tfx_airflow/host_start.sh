@@ -18,5 +18,8 @@ cd tfx
 git checkout -f origin/r0.14
 rm -rf tfx/examples/containers/workshop
 
-printf "${GREEN}Starting workshop container${NORMAL}\n"
-docker-compose -f tfx/examples/containers/airflow_workshop/docker-compose.yaml run --service-ports tfx
+printf "${GREEN}Starting workshop container${NORMAL}\n\n"
+printf "${GREEN}Next Step:${NORMAL}\n"
+printf "${GREEN}When you see the prompt 'root@<hex id>:/#'${NORMAL}\n"
+printf "${GREEN}Enter './setup_demo.sh'${NORMAL}\n"
+docker-compose -f tfx/examples/containers/workshop/docker-compose.yaml run --service-ports tfx
