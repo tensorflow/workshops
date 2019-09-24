@@ -15,5 +15,5 @@ export WSHOME=$PWD
 printf "${GREEN}Starting workshop container${NORMAL}\n\n"
 printf "${GREEN}Next Step:${NORMAL}\n"
 printf "${GREEN}When you see the prompt 'root@<hex id>:/#'${NORMAL}\n"
-printf "${GREEN}Enter './setup_demo.sh'${NORMAL}\n"
+printf "${GREEN}Enter 'source setup_demo.sh'${NORMAL}\n"
 docker-compose -f ../docker-compose.yaml run --service-ports tfx
