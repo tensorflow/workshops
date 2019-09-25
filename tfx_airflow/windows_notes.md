@@ -7,8 +7,10 @@ Windows is a bit challenging to use, but it's possible to make it work.  These n
 * Make sure that Docker is set for using Linux containers
 * Share the drive in Docker settings 
 * Open ports (if necessary) 445, 8080, 8888. 6006
-* Edit c:\windows\system32\drivers\etc\hosts on Windows and add
-    127.0.0.1 localunixsocket.local
+* Edit c:\windows\system32\drivers\etc\hosts on Windows and add:
+
+  127.0.0.1 localunixsocket.local
+
 * Terminal is messed up
     * no prompt
     * really narrow
