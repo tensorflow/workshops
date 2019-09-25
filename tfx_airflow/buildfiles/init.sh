@@ -18,6 +18,12 @@
 GREEN=$(tput setaf 2)
 NORMAL=$(tput sgr0)
 
+# Set locale
+locale-gen en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US:en
+export LC_ALL=en_US.UTF-8
+
 # Add sources for GCC and Python3.6
 add-apt-repository -y ppa:ubuntu-toolchain-r/test
 add-apt-repository -y ppa:jonathonf/python-3.6
@@ -47,7 +53,8 @@ pendulum==1.4.4 \
 google-api-python-client \
 tensorflow==1.14.0 \
 tfx==0.14.0 \
-ipykernel
+ipykernel \
+tabulate==0.8.4
 
 ipython kernel install --user --name=tfx
 pip install --upgrade notebook==5.7.8
