@@ -49,28 +49,31 @@ git clone https://github.com/tensorflow/workshops.git
 rm -rf /root/tfx/tfx/examples/airflow_workshop/notebooks
 cp -R /root/workshops/tfx_airflow/notebooks /root/tfx/tfx/examples/airflow_workshop
 
+# Create virtualenv and activate
 cd /root
 virtualenv -p python3.6 tfx_env
 source /root/tfx_env/bin/activate
 
+# Cleanup, dependencies, installs
 pip uninstall setuptools -y && pip install setuptools
 pip install httplib2==0.12.0 \
-pendulum==1.4.4 \
-google-api-python-client \
-tensorflow==1.14.0 \
-tfx==0.14.0 \
-ipykernel \
-tabulate==0.8.4
+    pendulum==1.4.4 \
+    google-api-python-client \
+    tensorflow==1.14.0 \
+    tfx==0.14.0 \
+    ipykernel \
+    tabulate==0.8.4
 
+# Install Jupyter and extensions
 ipython kernel install --user --name=tfx
 pip install --upgrade notebook==5.7.8
 jupyter nbextension install --py --symlink --sys-prefix tensorflow_model_analysis
 jupyter nbextension enable --py --sys-prefix tensorflow_model_analysis
 
 pip install matplotlib \
-papermill \
-pandas \
-networkx
+    papermill \
+    pandas \
+    networkx
 
 # TODO Try without docker
 pip install docker
