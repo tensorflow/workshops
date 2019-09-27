@@ -43,6 +43,12 @@ cd tfx
 git checkout -f origin/r0.14
 rm -rf tfx/examples/containers/workshop
 
+# Patch in new notebooks
+cd /root
+git clone https://github.com/tensorflow/workshops.git
+rm -rf /root/tfx/tfx/examples/airflow_workshop/notebooks
+cp -R /root/workshops/tfx_airflow/notebooks /root/tfx/tfx/examples/airflow_workshop
+
 cd /root
 virtualenv -p python3.6 tfx_env
 source /root/tfx_env/bin/activate
