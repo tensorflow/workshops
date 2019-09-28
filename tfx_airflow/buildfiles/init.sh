@@ -48,6 +48,8 @@ cd /root
 git clone https://github.com/tensorflow/workshops.git
 rm -rf /root/tfx/tfx/examples/airflow_workshop/notebooks
 cp -R /root/workshops/tfx_airflow/notebooks /root/tfx/tfx/examples/airflow_workshop
+chmod -R 777 /root/tfx/tfx/examples/airflow_workshop/notebooks
+chmod -R 777 /root/airflow
 
 # Create virtualenv and activate
 cd /root
