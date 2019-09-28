@@ -50,6 +50,7 @@ sed -i'.orig' "s/chicago_taxi_simple/taxi_solution/g" /root/airflow/dags/taxi_pi
 
 # Copy data to /airflow/data
 cp -R /root/tfx/tfx/examples/airflow_workshop/setup/data /root/airflow
+chmod -R 777 /root/airflow
 
 mkdir /root/logs
 
