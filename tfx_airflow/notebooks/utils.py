@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
 
-from google3.third_party.ml_metadata.proto import metadata_store_pb2
+from ml_metadata.proto import metadata_store_pb2
 
 
 def _is_output_event(event):

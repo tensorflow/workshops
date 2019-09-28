@@ -21,8 +21,8 @@ import tensorflow_data_validation as tfdv
 import tensorflow_model_analysis as tfma
 import utils
 
-from google3.third_party.ml_metadata.metadata_store import metadata_store
-from google3.third_party.ml_metadata.proto import metadata_store_pb2
+from ml_metadata.metadata_store import metadata_store
+from ml_metadata.proto import metadata_store_pb2
 
 
 class TFXArtifactTypes(object):
