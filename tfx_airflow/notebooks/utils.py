@@ -17,12 +17,14 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from IPython.display import display_html
 import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
+import tensorflow as tf
 
+from IPython.display import display_html
 from ml_metadata.proto import metadata_store_pb2
+tf.get_logger().propagate = False
 
 
 def _is_output_event(event):
