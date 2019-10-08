@@ -4,6 +4,7 @@ services:
     build:
       context: ./buildfiles
       dockerfile: Dockerfile
+    network_mode: "host"
     image: gcr.io/tfx-oss-public/tfx-and-serving:latest
     ports:
     - "4040:4040" # SparkContext
