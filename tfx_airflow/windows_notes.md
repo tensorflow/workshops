@@ -15,7 +15,7 @@ Windows is a bit challenging to use, but it's possible to make it work.  These n
 
     `127.0.0.1 localunixsocket.local`
 
-1. Install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) for Windows
+1. Install stable version of [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) for Windows
 1. Make sure that Docker is set for using Linux containers:
     * https://docs.docker.com/docker-for-windows/
     * https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers
