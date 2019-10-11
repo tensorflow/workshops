@@ -4,17 +4,17 @@ Windows is a bit challenging to use, but it's possible to make it work.  These n
 
 ## Preliminaries
 * Must use Windows 10 Pro or better (Not Home Edition)
-* Must have admin access
+* Must have Adminstrator access
 
 ## Steps
 1. Install [Git for Windows](https://gitforwindows.org/)
 1. Clone this repo https://github.com/tensorflow/workshops.git
 1. Open ports (if they're not already open) `445, 6006, 8080, 8888`
 1. Stop any running processes currently using those ports
-1. **(Requires admin access)** Edit `C:\windows\system32\drivers\etc\hosts` on Windows and add:
+1. **(Requires Adminstrator access)** Edit `C:\windows\system32\drivers\etc\hosts` on Windows and add:
 
     `127.0.0.1 localunixsocket.local`
-
+    * [Instructions for editing your hosts file](https://www.groovypost.com/howto/edit-hosts-file-windows-10/)
 1. Install stable version of [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) for Windows
 1. Make sure that Docker is set for using Linux containers:
     * https://docs.docker.com/docker-for-windows/
