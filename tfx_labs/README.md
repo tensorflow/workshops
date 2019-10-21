@@ -2,7 +2,7 @@
 
 The following are labs for teaching TFX developer training sessions.
 
-### [Lab 1 - Running a simple pipeline manually in a Colab Notebook](https://colab.sandbox.google.com/github.com/tensorflow/workshops/blob/master/tfx_labs/Lab_1_Pipeline_in_Colab.ipynb/Lab_1_Pipeline_in_Colab.ipynb)
+### [Lab 1 - Running a simple pipeline manually in a Colab Notebook](https://colab.sandbox.google.com/github.com/tensorflow/workshops/blob/master/tfx_labs/Lab_1_Pipeline_in_Colab.ipynb)
 
 This notebook demonstrates how to use Jupyter/Colab notebooks for TFX iterative development. Here, we walk through the Chicago Taxi example in an interactive notebook.
 
