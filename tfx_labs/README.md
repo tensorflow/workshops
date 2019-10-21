@@ -30,4 +30,8 @@ This example colab notebook illustrates how TensorFlow Data Validation (TFDV) ca
 
 This example colab notebook provides a somewhat more advanced example of how [TensorFlow Transform](https://www.tensorflow.org/tfx/transform/) can be used to preprocess data using exactly the same code for both training a model and serving inferences in production.
 
-TensorFlow Transform is a library for preprocessing input data for TensorFlow, including creating features that require a full pass over the training dataset. 
+TensorFlow Transform is a library for preprocessing input data for TensorFlow, including creating features that require a full pass over the training dataset.
+
+### [Lab 6 – Model Analysis](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_6_Model_Analysis.ipynb)
+
+This example colab notebook illustrates how TensorFlow Model Analysis (TFMA) can be used to investigate and visualize the characteristics of a dataset and the performance of a model. We'll use a model that we trained previously, and now you get to play with the results!
