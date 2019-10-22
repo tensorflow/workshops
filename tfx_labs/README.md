@@ -35,3 +35,7 @@ TensorFlow Transform is a library for preprocessing input data for TensorFlow, i
 ### [Lab 6 – Model Analysis](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_6_Model_Analysis.ipynb)
 
 This example colab notebook illustrates how TensorFlow Model Analysis (TFMA) can be used to investigate and visualize the characteristics of a dataset and the performance of a model. We'll use a model that we trained previously, and now you get to play with the results!
+
+### [Lab 7 Fairness Indicators](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_7_Fairness_Indicators.ipynb)
+
+In this activity, you'll use Fairness Indicators to explore the [Civil Comments](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification) dataset. Fairness Indicators is a suite of tools built on top of [TensorFlow Model Analysis](https://www.tensorflow.org/tfx/model_analysis/get_started) that enable regular evaluation of fairness metrics in product pipelines.
