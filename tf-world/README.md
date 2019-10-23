@@ -8,8 +8,8 @@ Working in an interactive notebook is a useful way to become familiar with the s
 
 ### [Fairness Indicators and What-If Tool](https://colab.corp.google.com/drive/13NXkylgiyIHkw0B1NiqjlWqZtE6cJ5CN)
 
-This is a Fairness E2E case study.
+In this activity, you'll use Fairness Indicators to explore the [Civil Comments dataset](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification). Fairness Indicators is a suite of tools built on top of [TensorFlow Model Analysis](https://www.tensorflow.org/tfx/model_analysis/get_started) that enable regular evaluation of fairness metrics in product pipelines.
 
 ### [Airflow and Jupyter](../tfx_airflow/README.md)
 
-This is the Airflow tutorial, running in a Docker container.
+This is a Docker image for running the [TFX Developer Tutorial](https://www.tensorflow.org/tfx/tutorials/tfx/workshop). It includes TensorFlow and TFX, and initializes a clean, basic environment for running the workshop.
