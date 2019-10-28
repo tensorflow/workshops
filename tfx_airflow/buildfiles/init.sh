@@ -36,20 +36,6 @@ apt-get install -y --no-install-recommends gcc-7 g++-7 \
 # Upgrade to Python 3.6
 apt-get install -y --no-install-recommends python3.6 python3.6-dev
 
-# Checkout TFX from latest release branch
-cd /root
-git clone https://github.com/tensorflow/tfx.git
-cd tfx
-git checkout -f origin/r0.14
-rm -rf tfx/examples/containers/workshop
-
-# Patch in new notebooks
-cd /root
-git clone https://github.com/tensorflow/workshops.git
-rm -rf /root/tfx/tfx/examples/airflow_workshop/notebooks
-cp -R /root/workshops/tfx_airflow/notebooks /root/tfx/tfx/examples/airflow_workshop
-chmod -R 777 /root/tfx/tfx/examples/airflow_workshop/notebooks
-
 # Create virtualenv and activate
 cd /root
 virtualenv -p python3.6 tfx_env
@@ -57,13 +43,9 @@ source /root/tfx_env/bin/activate
 
 # Cleanup, dependencies, installs
 pip uninstall setuptools -y && pip install setuptools
-pip install httplib2==0.12.0 \
-    pendulum==1.4.4 \
-    google-api-python-client \
-    tensorflow==1.14.0 \
-    tfx==0.14.0 \
-    ipykernel \
-    tabulate==0.8.4
+pip install -U httplib2==0.12.0
+pip install tensorflow==2.0.0
+pip install tfx==0.15.0rc0
 
 # Install Jupyter and extensions
 ipython kernel install --user --name=tfx
@@ -75,11 +57,10 @@ pip install matplotlib \
     papermill \
     pandas \
     networkx
-
-# TODO Try without docker
-pip install docker
-
-# Airflow
-# Set this to avoid the GPL version; no functionality difference either way
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
-pip install apache-airflow==1.10.3 Flask==1.0.4 Werkzeug==0.14.1
+pip install apache-airflow
+
+# Checkout TFX from latest release branch
+cd /root
+git clone https://github.com/tensorflow/tfx.git
+cd tfx
