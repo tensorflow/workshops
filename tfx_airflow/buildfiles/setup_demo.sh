@@ -48,6 +48,13 @@ sed -i'.orig' "s/taxi_utils.py/dags\/taxi_utils_solution.py/g" /root/airflow/dag
 sed -i'.orig' "s/os.environ\['HOME'\], 'tfx'/_taxi_root, 'tfx'/g" /root/airflow/dags/taxi_pipeline_solution.py
 sed -i'.orig' "s/chicago_taxi_simple/taxi_solution/g" /root/airflow/dags/taxi_pipeline_solution.py
 
+# Patch in new notebooks
+cd /root
+git clone https://github.com/tensorflow/workshops.git
+rm -rf /root/tfx/tfx/examples/airflow_workshop/notebooks
+cp -R /root/workshops/tfx_airflow/notebooks /root/tfx/tfx/examples/airflow_workshop
+chmod -R 777 /root/tfx/tfx/examples/airflow_workshop/notebooks
+
 # Copy data to /airflow/data
 cp -R /root/tfx/tfx/examples/airflow_workshop/setup/data /root/airflow
 chmod -R 777 /root/airflow
