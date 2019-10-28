@@ -36,6 +36,21 @@ TensorFlow Transform is a library for preprocessing input data for TensorFlow, i
 
 This example colab notebook illustrates how TensorFlow Model Analysis (TFMA) can be used to investigate and visualize the characteristics of a dataset and the performance of a model. We'll use a model that we trained previously, and now you get to play with the results!
 
-### [Lab 7 Fairness Indicators](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_7_Fairness_Indicators.ipynb)
+### [Lab 7 – Fairness Indicators](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_7_Fairness_Indicators.ipynb)
 
 In this activity, you'll use Fairness Indicators to explore the [Civil Comments](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification) dataset. Fairness Indicators is a suite of tools built on top of [TensorFlow Model Analysis](https://www.tensorflow.org/tfx/model_analysis/get_started) that enable regular evaluation of fairness metrics in product pipelines.
+
+### [Lab 8 – Custom Components](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_8_Custom_Components.ipynb)
+
+This notebook demonstrates how to build and use a custom component in your TFX pipeline. We will train an image classification model on the [UC Merced Land Use Dataset](http://weegee.vision.ucmerced.edu/datasets/landuse.html) of aerial pictures, using a custom component to perform image augmentation.
+
+### [Lab 9 – Alternate Pipeline Architectures](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_9_Alternate_Pipeline_Architectures.ipynb)
+
+This notebook demonstrates how to build and use TFX with a different pipeline architecture.  Specifically, the pipeline in this example will branch following the feature engineering with Transform, so that two different Trainers each train and deploy two different model architectures from the same dataset.  This illustrates one possible approach to doing A/B testing.
+
+We will train an image classification model on the [UC Merced Land Use Dataset](http://weegee.vision.ucmerced.edu/datasets/landuse.html) of aerial pictures.
+
+### [Lab 10 – Neural Structured Learning](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_10_Neural_Structured_Learning.ipynb)
+
+This notebook describes graph regularization for sentiment classification by synthesizing a graph from input data. An end-to-end workflow using the [Neural Structured Learning](https://www.tensorflow.org/neural_structured_learning) framework is demonstrated in a TFX pipeline using several TFX custom components as well as a graph-regularized trainer component.
+
