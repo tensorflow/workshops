@@ -6,7 +6,7 @@ This notebook demonstrates how to use Jupyter/Colab notebooks for TFX iterative 
 
 Working in an interactive notebook is a useful way to become familiar with the structure of a TFX pipeline. It's also useful when doing development of your own pipelines as a lightweight development environment, but you should be aware that there are differences in the way interactive notebooks are orchestrated, and how they access metadata artifacts.
 
-### [Fairness Indicators and What-If Tool](https://colab.corp.google.com/drive/13NXkylgiyIHkw0B1NiqjlWqZtE6cJ5CN)
+### [Fairness Indicators and What-If Tool](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_7_Fairness_Indicators.ipynb)
 
 In this activity, you'll use Fairness Indicators to explore the [Civil Comments dataset](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification). Fairness Indicators is a suite of tools built on top of [TensorFlow Model Analysis](https://www.tensorflow.org/tfx/model_analysis/get_started) that enable regular evaluation of fairness metrics in product pipelines.
 
