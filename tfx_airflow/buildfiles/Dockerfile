@@ -33,4 +33,4 @@ RUN apt-get install -y --no-install-recommends \
         && chmod +x /init.sh \
         && bash /init.sh
 
-EXPOSE 8080 8888 6006
+EXPOSE 4040 6006 8080 8081 8099 8888 

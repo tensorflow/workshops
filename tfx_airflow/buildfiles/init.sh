@@ -64,3 +64,10 @@ pip install apache-airflow
 cd /root
 git clone https://github.com/tensorflow/tfx.git
 cd tfx
+
+# Patch in new notebooks
+cd /root
+git clone https://github.com/tensorflow/workshops.git
+rm -rf /root/tfx/tfx/examples/airflow_workshop/notebooks
+cp -R /root/workshops/tfx_airflow/notebooks /root/tfx/tfx/examples/airflow_workshop
+chmod -R 777 /root/tfx/tfx/examples/airflow_workshop/notebooks
