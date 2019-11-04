@@ -3,8 +3,14 @@
 GREEN=$(tput setaf 2)
 NORMAL=$(tput sgr0)
 
-printf "${GREEN}Pulling Docker image (should have already been done, just making sure)${NORMAL}\n"
-docker pull gcr.io/tfx-oss-public/tfx-workshop:latest
+read -p "${GREEN}Pull Docker image (2.7GB) from Docker Hub? (y/N) ${NORMAL} " -n 1 -r
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    printf "${GREEN}\nNot pulling.  You should have a copy of the image already.${NORMAL}\n\n"
+else
+    printf "${GREEN}\nPulling ...${NORMAL}\n"
+    docker pull gcr.io/tfx-oss-public/tfx-workshop:latest
+fi
 
 printf "${GREEN}Creating directories${NORMAL}\n"
 cd `dirname ${BASH_SOURCE[0]}`
