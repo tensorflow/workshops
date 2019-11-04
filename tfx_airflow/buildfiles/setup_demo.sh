@@ -49,7 +49,7 @@ sed -i'.orig' "s/os.environ\['HOME'\], 'tfx'/_taxi_root, 'tfx'/g" /root/airflow/
 sed -i'.orig' "s/chicago_taxi_simple/taxi_solution/g" /root/airflow/dags/taxi_pipeline_solution.py
 
 # Fix problem with commit 9b79f8af839ff01bdde079c873e3f9d3225d3209 and AirflowPipelineConfig
-sed -i'.orig' "s/from tfx.orchestration.airflow.airflow_dag_runner import AirflowDagRunner//g" /root/airflow/dags/taxi_pipeline_solution.py
+sed -i'.orig' "s/from tfx.orchestration.airflow.airflow_dag_runner import AirflowPipelineConfig//g" /root/airflow/dags/taxi_pipeline_solution.py
 sed -i'.orig' "s/AirflowPipelineConfig(_airflow_config)/_airflow_config/g" /root/airflow/dags/taxi_pipeline_solution.py
 
 # Copy data to /airflow/data
