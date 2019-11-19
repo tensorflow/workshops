@@ -45,7 +45,7 @@ source /root/tfx_env/bin/activate
 pip uninstall setuptools -y && pip install setuptools
 pip install -U httplib2==0.12.0
 pip install tensorflow==2.0.0
-pip install tfx==0.15.0rc0
+pip install tfx==0.15.0
 
 # Install Jupyter and extensions
 ipython kernel install --user --name=tfx

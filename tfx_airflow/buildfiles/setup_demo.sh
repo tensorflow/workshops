@@ -74,3 +74,4 @@ airflow scheduler &> /root/logs/scheduler &
 printf "${GREEN}\nYou can now open two web browser tabs and go to:${NORMAL}\n"
 printf "${GREEN}Airflow: http://127.0.0.1:8080${NORMAL}\n"
 printf "${GREEN}Jupyter: http://127.0.0.1:8888${NORMAL}\n"
+printf "${GREEN}\nTo end your session and stop your Docker container, type 'exit'${NORMAL}\n"
