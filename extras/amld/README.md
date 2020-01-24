@@ -1,9 +1,9 @@
-# [AMLD](https://www.appliedmldays.org) TensorFlow Workshop
+# [AMLD](https://www.appliedmldays.org) TensorFlow 2 Workshop
 
-This workshop was given during the Applied ML days at EPFL (2019):
+This workshop was given during the Applied ML days at EPFL (2020):
 
-https://www.appliedmldays.org/workshops/tensorflow-basics-saturday
-https://www.appliedmldays.org/workshops/tensorflow-basics-sunday
+https://appliedmldays.org/workshops/tensorflow-2-basics-saturday
+https://appliedmldays.org/workshops/tensorflow-2-basics-sunday
 
 The workshop shows how to (using TensorFlow 1.12)
 
@@ -18,7 +18,7 @@ For illustration purposes, the workshop uses the
 ["Quick, Draw" dataset](quickdraw.withgoogle.com/data), but the provided
 Colabs can easily be extended to other data.
 
-[![Workshop Slides (link)](workshop_slides.png)](https://bit.ly/2Mzl5PU)
+[![Workshop Slides (link)](workshop_slides.png)](https://bit.ly/2RKlP7C)
 
 (Workshop content by Andreas Steiner, Ruslan Habalov, Megan Ruthven, Bartek Wołowiec)
 
