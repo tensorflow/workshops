@@ -1,0 +1,1 @@
+[Run this notebook in Colab](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_colabs/TFX_Workshop_Colab.ipynb)

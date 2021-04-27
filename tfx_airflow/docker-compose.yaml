@@ -1,0 +1,21 @@
+version: "3"
+services:
+  tfx:
+    build:
+      context: ./buildfiles
+      dockerfile: Dockerfile
+    image: gcr.io/tfx-oss-public/tfx-workshop:latest
+    ports:
+    - "4040:4040" # SparkContext
+    - "6006:6006" # TensorBoard
+    - "8080:8080" # Airflow
+    - "8081:8081" # Flink UI or Spark UI
+    - "8888:8888" # Jupyter notebook
+    - "8099:8099" # Beam PortableRunner JobServer
+    volumes:
+    - "$WSHOME/airflow:/root/airflow"
+
+    stdin_open: true
+    tty: true
+
+    entrypoint: /bin/bash

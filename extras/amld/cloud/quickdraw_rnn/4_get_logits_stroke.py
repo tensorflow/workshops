@@ -1,1 +1,0 @@
-../../notebooks/solutions/_derived/4_get_logits_stroke.py

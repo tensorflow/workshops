@@ -1,21 +1,56 @@
-# [AMLD](https://www.appliedmldays.org) TensorFlow Workshop
+# [AMLD](https://www.appliedmldays.org) TensorFlow 2 Workshop
 
-This workshop was given during the Applied ML days at EPFL:
+This workshop was given during the Applied ML days at EPFL (2020):
 
-https://www.appliedmldays.org/workshop_sessions/tensorflow-basics.1
+https://appliedmldays.org/workshops/tensorflow-2-basics-saturday
+https://appliedmldays.org/workshops/tensorflow-2-basics-sunday
 
-The workshop introduces basic TensorFlow concepts and contains example code to
-build different estimators (canned, 2D convolutional, RNN). We use the
-["Quick, Draw" dataset](quickdraw.withgoogle.com/data). The repository also
-contains example code for training the models on Google's
-[Cloud ML](https://cloud.google.com/ml-engine/).
+The workshop shows how to (using TensorFlow 1.12)
 
-[![Workshop Slides (link)](workshop_slides.png)](https://goo.gl/395fmU)
+- use Colab
+- transform a dataset into sharded files of tf.train.Example
+- train (linear, convolutional, recurrent) models using Keras
+- implement the same functionality using TensorFlow Eager
+- do predictions in Python and TensorFlow.js
+- train models on Google Cloud
 
-## How-to run these notebooks
+For illustration purposes, the workshop uses the
+["Quick, Draw" dataset](quickdraw.withgoogle.com/data), but the provided
+Colabs can easily be extended to other data.
 
-Read [these instructions](https://github.com/tensorflow/workshops#how-to-run-these-notebooks)
-to download this repository and get TensorFlow running on your computer. You
-will then find the notebooks under
-`http://localhost:8888/tree/extras/amld/notebooks`
+[![Workshop Slides (link)](workshop_slides.png)](https://bit.ly/2RKlP7C)
+
+(Workshop content by Andreas Steiner, Ruslan Habalov, Megan Ruthven, Bartek Wołowiec)
+
+## Run notebooks on Colab
+
+While most of the provided notebooks also run on Jupyter, some functionality
+(like access to Drive or Cloud storage, or interactive predictions) is only
+available in [Colaboratory](https://colab.research.google.com).
+
+* [0_colab.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/exercises/0_colab.ipynb)
+* [1_data.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/exercises/1_data.ipynb)
+* [2_keras.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/exercises/2_keras.ipynb)
+* [3_eager.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/exercises/3_eager.ipynb)
+* [4_predict.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/exercises/4_predict.ipynb)
+* [5_cloud.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/exercises/5_cloud.ipynb)
+
+Note that these notebooks depend on being run in order because earlier notebooks
+will download files and write shared Python code to the local filesystem and
+later notebooks depend on these files.
+
+If you get stuck with the exercises, you can checkout the "solution" notebooks:
+
+* [0_colab.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/solutions/0_colab.ipynb)
+* [1_data.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/solutions/1_data.ipynb)
+* [2_keras.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/solutions/2_keras.ipynb)
+* [3_eager.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/solutions/3_eager.ipynb)
+* [4_predict.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/solutions/4_predict.ipynb)
+* [5_cloud.ipynb](https://colab.research.google.com/github/tensorflow/workshops/blob/master/extras/amld/notebooks/solutions/5_cloud.ipynb)
+
+## Run notebooks locally
+
+Alternatively, you can also install
+[TensorFlow](https://www.tensorflow.org/install/) on your local machine, clone
+this repository, and then run [Jupyter](jupyter.org/install) locally.
 
