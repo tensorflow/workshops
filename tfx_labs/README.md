@@ -54,3 +54,6 @@ We will train an image classification model on the [UC Merced Land Use Dataset](
 
 This notebook describes graph regularization for sentiment classification by synthesizing a graph from input data. An end-to-end workflow using the [Neural Structured Learning](https://www.tensorflow.org/neural_structured_learning) framework is demonstrated in a TFX pipeline using several TFX custom components as well as a graph-regularized trainer component.
 
+### [Lab 11 – ML Metadata](https://colab.sandbox.google.com/github/tensorflow/workshops/blob/master/tfx_labs/Lab_11_ML_Metadata.ipynb)
+
+This notebook demonstrates the basic usages of ml metadata. Specifically, it shows how we could interact with Metadata store before and during pipeline runs. We'll see a use case where ML Metadata is used in the Chicago Taxi notebook!
